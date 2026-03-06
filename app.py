@@ -69,7 +69,7 @@ def update_user(user_id):
     conn = mysql.connector.connect(
         host="mysql-serhal.alwaysdata.net",
         user="serhal",
-        password="454-AJK-0101/",
+        password="545-AJK-0101/",
         database="serhal_projct"
     )
 
@@ -98,7 +98,7 @@ def delete_user(user_id):
     conn = mysql.connector.connect(
         host="mysql-serhal.alwaysdata.net",
         user="serhal",
-        password="454-AJK-0101/",
+        password="545-AJK-0101/",
         database="serhal_projct"
     )
 
