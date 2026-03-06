@@ -15,7 +15,7 @@ def hello():
 
 @app.route("/users", methods=["GET"]) 
 def get_users(): 
-    conn = mysql.connector.connect( host="mysql-serhal.alwaysdata.net", user="serhal", password="454-AJK-0101/", database="serhal_projct" ) 
+    conn = mysql.connector.connect( host="mysql-serhal.alwaysdata.net", user="serhal", password="545-AJK-0101/", database="serhal_projct" ) 
     
     cursor = conn.cursor(dictionary=True) 
     
