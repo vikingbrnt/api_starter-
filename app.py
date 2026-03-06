@@ -40,7 +40,7 @@ def create_user():
     conn = mysql.connector.connect(
         host="mysql-serhal.alwaysdata.net",
         user="serhal",
-        password="454-AJK-0101/",
+        password="545-AJK-0101/",
         database="serhal_projct"
     )
 
